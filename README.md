@@ -8,10 +8,10 @@ This Chrome extension adds a simple counter of sizes of cards and adds them up f
 - More coming...
 
 **Story counter on Issues page**
-![Issues](src/screenshots/issues.png)
+![Issues](src/screenshots/issues-zoom.png)
 
 **Story counter on Projects page**
-![Projects](src/screenshots/projects.png)
+![Projects](src/screenshots/projects-zoom.png)
 
 ## Installing
 
