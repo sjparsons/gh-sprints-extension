@@ -1,0 +1,16 @@
+{
+  "name": "gh-sprints-extension",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prebuild": "json -I -f src/manifest.json -e \"this.version='$npm_package_version'\"",
+    "build": "mkdir build; zip build/gh-sprint-$npm_package_version.zip src/*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json": "^10.0.0"
+  }
+}
