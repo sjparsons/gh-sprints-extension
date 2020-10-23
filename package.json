@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "prebuild": "json -I -f src/manifest.json -e \"this.version='$npm_package_version'\"",
-    "build": "mkdir build; zip build/gh-sprint-$npm_package_version.zip src/*"
+    "build": "mkdir -p build; rm build/gh-sprint-$npm_package_version.zip; zip build/gh-sprint-$npm_package_version.zip src/* src/**/*"
   },
   "keywords": [],
   "author": "",
