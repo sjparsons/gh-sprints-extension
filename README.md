@@ -24,3 +24,14 @@ This extension is currently pending review in the Chrome Web Store, so for now y
 5. Select `Load unpacked` and then in the window navigate to the folder you unzipped in step 2 and select it.
 
 To use the plugin, just navigate to a projects or issues page in GitHub or GitHub Enterprise.
+
+## Development
+
+### Building
+
+To build the artifact for uploading to the Chrome Web Store, you can run the following commands.
+
+```
+$ npm i
+$ npm run build
+```
